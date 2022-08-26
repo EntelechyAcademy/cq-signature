@@ -1,0 +1,23 @@
+mutation Signature($id: ID = 1) {
+    getSigData(id: $id) {
+        first_name
+        last_name
+        created_at
+        progress_title
+        progress_desc
+        strengths {
+            name
+            verified
+            thumb
+            rating
+        }
+        focuses {
+            name
+            thumb
+            status
+            progress_tally
+            progress_total
+            awarded
+        }
+    }
+}
