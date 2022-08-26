@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Entelechy - Signature',
+  title: 'Entelechy Signature',
   link: [{ rel: 'icon', href: '/favicon.ico' }],
 })
 </script>
