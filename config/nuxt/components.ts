@@ -1,6 +1,6 @@
 import { uiFeatureDirectories } from './utils/uiFeature'
 
-export default {
+export const components = {
   dirs: [
     '~/app-modules/app/components',
     ...uiFeatureDirectories,

@@ -1,14 +1,12 @@
 <script setup lang="ts">
 useHead({
-  title: 'Nuxt3 Vanilla - Hex Starter',
-  link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+  title: 'Entelechy - Signature',
+  link: [{ rel: 'icon', href: '/favicon.ico' }],
 })
 </script>
 
 <template>
-  <NuxtLayout cl>
+  <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
-  <ModalsController />
-  <NotificationsController />
 </template>

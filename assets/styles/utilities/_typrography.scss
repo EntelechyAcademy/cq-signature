@@ -1,0 +1,73 @@
+.h1 {
+  font-family: 'WorkSans-SemiBold';
+  font-size: theme('fontSize.30');
+}
+
+.h2 {
+  font-family: 'WorkSans-SemiBold';
+  font-size: theme('fontSize.24');
+}
+
+.h3 {
+  font-family: 'WorkSans-SemiBold';
+  font-size: theme('fontSize.20');
+}
+
+.h4 {
+  font-family: 'WorkSans-Bold';
+  font-size: theme('fontSize.16');
+}
+
+.button {
+  font-family: 'WorkSans-Medium';
+  font-size: theme('fontSize.16');
+  letter-spacing: 4%;
+  text-transform: uppercase;
+}
+
+.tag {
+  font-family: 'WorkSans-Medium';
+  font-size: theme('fontSize.14');
+  color: theme('colors.grey');
+}
+
+.body {
+  &-regular {
+    font-family: 'WorkSans-Regular';
+  }
+
+  &-medium {
+    font-family: 'WorkSans-Medium';
+  }
+
+  &-bold {
+    font-family: 'WorkSans-SemiBold';
+  }
+
+  &-regular-underlined {
+    font-family: 'WorkSans-Regular';
+    text-decoration: underline;
+  }
+}
+
+.size-medium {
+  font-size: theme('fontSize.14');
+}
+
+.large {
+  font-size: theme('fontSize.16');
+}
+
+.small {
+  font-size: theme('fontSize.12');
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.button,
+.body {
+  white-space: pre-line;
+  color: theme('colors.black');
+}

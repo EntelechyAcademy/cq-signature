@@ -1,0 +1,40 @@
+/* See: https://dev.to/sustainabledevs/how-to-load-web-fonts-for-the-best-page-load-performance-10lc */
+@font-face {
+  font-display: swap;
+  font-style: 'normal';
+  font-weight: 400;
+  font-family: 'WorkSans-Regular';
+  src:
+    url('~/assets/fonts/WorkSans-Regular.ttf') format('truetype'),
+    url('~/assets/fonts/WorkSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-display: swap;
+  font-style: 'normal';
+  font-weight: 500;
+  font-family: 'WorkSans-Medium';
+  src:
+    url('~/assets/fonts/WorkSans-Medium.ttf') format('truetype'),
+    url('~/assets/fonts/WorkSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-display: swap;
+  font-style: 'normal';
+  font-weight: 600;
+  font-family: 'WorkSans-SemiBold';
+  src:
+    url('~/assets/fonts/WorkSans-SemiBold.ttf') format('truetype'),
+    url('~/assets/fonts/WorkSans-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-display: swap;
+  font-style: 'normal';
+  font-weight: 700;
+  font-family: 'WorkSans-Bold';
+  src:
+    url('~/assets/fonts/WorkSans-Bold.ttf') format('truetype'),
+    url('~/assets/fonts/WorkSans-Bold.otf') format('opentype');
+}

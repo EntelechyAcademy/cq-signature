@@ -1,0 +1,16 @@
+.c-btn {
+  display: inline-block;
+  padding: theme('spacing.9') theme('spacing.44');
+  text-align: center;
+  border: 1px solid theme('colors.black');
+  border-radius: theme('spacing.24');
+  background-color: transparent;
+
+  &:hover {
+    background-color: theme('colors.black');
+
+    .button {
+      color: theme('colors.white');
+    }
+  }
+}
